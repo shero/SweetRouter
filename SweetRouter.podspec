@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source = { :git => "https://github.com/alickbass/SweetRouter.git", :tag => s.version, :branch => 'master'}
-  s.source_files = "SweetRouter/*.swift"
+  s.source_files = "Sources/SweetRouter/*.swift"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
 
 end
